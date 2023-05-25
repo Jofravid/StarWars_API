@@ -1,0 +1,133 @@
+body {
+    background: linear-gradient(45deg,#090909,#2f7074,#51316f,#0d0e0d);
+    background-size: 300% 300%;
+    animation: color 10s ease-in-out infinite;
+  }
+@keyframes color{
+  0%{
+    background-position: 0 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0 50%;
+  }
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: 'Star Wars', sans-serif;
+    font-size: 200%;
+    margin-top: 30px;
+    text-shadow: 0 0 10px #fff;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-family: 'Star Wars', sans-serif;
+    font-size: 400%;
+    text-shadow: 0 0 10px #fff;
+}
+#sectionModal{
+    background: black;
+    color: #00fbff;
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 0 0 20px #fff;
+    border: #00fbff 0.150em solid;
+    box-shadow: inset 0 0 5px #fff, 0 0 5px #fff;
+    border-radius: 0.50em;
+}
+#close-btn{
+    position: absolute;
+    right: 4px;
+    top: 2px;
+    border: none;
+    background: none;
+    color: #00fbff;
+    text-shadow: 0 0 20px #fff;    
+}
+.btn{
+    font-family: 'Puente Bueno St', sans-serif; 
+    font-size: 2em;                                  
+    position: absolute;
+    background: none;
+    color: #00fbff;
+    text-shadow: 0 0 50px #fff;
+    left: -8%;
+    margin-top: 5%;    
+}
+.timeline-width{
+    margin: 20px;
+    position: relative;
+    border-left: 2px solid #00fbff;
+    list-style: none;
+    left: 10%;
+ }
+.timeline-icon{
+    position: absolute;
+    left: -11px;
+    background: #00fbff;
+    border-radius: 50%;
+    border: #00fbff 0.150em solid;
+    box-shadow: 0 0 5px #fff;
+    width: 21px;
+    height: 20px;
+}
+.infoCard{
+    font-family: 'Puente Bueno St', sans-serif;
+    font-size: 1.5em;
+    width: 40%;
+    height: 150px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    cursor: pointer;
+    background: none;
+    color: #00fbff;
+    text-shadow: 0 0 20px #fff;
+    border: #00fbff 0.150em solid;
+    box-shadow: inset 0 0 5px #fff, 0 0 5px #fff;
+    border-radius: 0.50em;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+@keyframes slideBottom{
+  from{
+    transform: translateY(300px);
+  }
+  to{
+    transform: translateY(0);
+  }
+}
+#mostrar-personajes{
+    font-family: 'Puente Bueno St', sans-serif;                                         
+    width: 320px;
+    height: 100%;
+    color: #00fbff;
+    text-shadow: 0 0 20px #fff;
+    margin: 2%;
+    padding: 2%;
+    flex-direction: column;
+    animation: slideBottom 1s ease-in;
+}
+.footer{
+  background-color: black;
+  opacity: 0.5;
+  margin-top: 10px;
+  height: 100px;
+  font-family: 'Puente Bueno St', sans-serif;
+  font-size: 1.5em;
+  color: #00fbff;
+  text-shadow: 0 0 20px #fff;
+  text-align: center;
+  padding: 3%;
+}
+  
+   
